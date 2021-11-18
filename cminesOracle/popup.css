@@ -1,0 +1,41 @@
+
+html{
+  border-radius: 0.5rem;
+}
+body{
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0.4rem;
+  --tw-bg-opacity: 1;
+  background-color: rgba(199, 210, 254, var(--tw-bg-opacity));
+  border-radius: 0.5rem;
+}
+
+#bolder{
+font-weight: 700;
+}
+
+h2{
+font-size: 0.9rem;
+--tw-text-opacity: 1;
+color: rgba(99, 102, 241, var(--tw-text-opacity));
+}
+h3{
+  font-size: 0.65rem;
+--tw-text-opacity: 1;
+color: rgba(99, 102, 241, var(--tw-text-opacity));
+}
+
+#btnChange{
+  margin-top: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  color: cornsilk;
+  --tw-bg-opacity: 1;
+  background-color: rgba(79, 70, 229, var(--tw-bg-opacity));
+  border-radius: 0.5rem;
+}
